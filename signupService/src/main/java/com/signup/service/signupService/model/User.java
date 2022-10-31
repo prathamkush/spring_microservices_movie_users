@@ -16,14 +16,14 @@ import javax.persistence.Table;
 public class User {
 
     @Id
+    @GeneratedValue
     private int id;
 
     private String name;
 
-//    public User(long id, String name){
-//        this.id = id;
-//        this.name = name;
-//    }
+    public User(String name){
+        this.name = name;
+    }
 //    private String email;
 //    private String password;
 

@@ -1,4 +1,4 @@
-Movie App
+<b> Movie App </b>
 
 
 => Movie Server => Eureka Server
@@ -14,15 +14,17 @@ Movie App
 
 //-----------------------------------------------------------------//
 
-'*' Monolithic => Single Container forming an application
+<h3> Monolithic => Single Container forming an application </h3>
 
 => Movie App
+
 	-> Login feature
 	-> Signup feature
 	-> Add Movie 
 	-> Get movies
 
 => Challenges
+
 	-> Inflexible : Cant use idfferent technologies to form the app
 	
 	-> Unreliable : One feature of the system doesnt work entire system doesnt work
@@ -35,9 +37,10 @@ Movie App
 	-> Slow Build : Deployment time/build time is slow.
 
 
-'*' Microservices => Multiple containers forming a block
+<h3> Microservices => Multiple containers forming a block </h3>
 
 => Movie App
+
 	-> Login service :	SpringBoot with H2Database -> not running -> dont have to rebuild for scaling/
                         updating a feature -> build time low
                         
